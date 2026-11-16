@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drprajith.github.io/sitemap.xml
