@@ -127,7 +127,7 @@ code { background: var(--bg-alt); padding: .1em .4em; border-radius: 6px; font-s
 
 /* ===== Timeline ===== */
 .timeline { list-style: none; margin: 0; padding: 0 0 0 1.5rem; border-left: 2px solid var(--border); display: grid; gap: 1.5rem; }
-.timeline li { position: relative; display: grid; grid-template-columns: 110px 1fr; gap: 1rem; align-items: start; }
+.timeline li { position: relative; display: grid; grid-template-columns: 150px 1fr; gap: 1rem; align-items: start; }
 .timeline li::before { content: ""; position: absolute; left: calc(-1.5rem - 7px); top: .45rem; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px var(--bg-alt); }
 .t-date { font-weight: 700; color: var(--accent); padding-top: .2rem; }
 .t-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.2rem 1.4rem; }
@@ -213,3 +213,7 @@ code { background: var(--bg-alt); padding: .1em .4em; border-radius: 6px; font-s
   .site-header, .theme-toggle, .form, .skip-link { display: none; }
   .js .reveal { opacity: 1; transform: none; }
 }
+
+.t-org { font-size: .9rem; font-weight: 600; color: var(--text); margin-bottom: .5rem !important; }
+.t-list { margin: 0; padding-left: 1.1rem; color: var(--muted); display: grid; gap: .4rem; font-size: .95rem; }
+.t-card h3 { font-family: var(--font); font-weight: 600; }
